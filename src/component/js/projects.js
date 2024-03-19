@@ -62,7 +62,7 @@ export default function Projects() {
         </div>
         <div className='proj'>
         <div className='image'>
-            <a href='#'> <img src={img} alt='img'/></a>
+            <a href='https://github.com/Deju12/portfolio'> <img src={img} alt='img'/></a>
           </div>
           <div className='prog'>
             <button>React js</button>

@@ -65,7 +65,7 @@ function Nav() {
         <li onClick={Education} className={showMenu ? 'links lin' : 'links'}>Educations</li>
         <li onClick={Contact} className={showMenu ? 'links lin' : 'links'}>Contact</li>
         <li  className={showMenu ? 'lin github' : 'github'}><a href='https://github.com/Deju12'><span><FaGithub/></span><l>Github</l></a></li>
-        <li  className={showMenu ? 'lin Linkedin' : 'Linkedin'}><a href='https://github.com/Deju12'><span><CiLinkedin /></span><l>Linkedin</l></a></li>
+        <li  className={showMenu ? 'lin Linkedin' : 'Linkedin'}><a href='https://www.linkedin.com/in/dejene-tesfaye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><span><CiLinkedin /></span><l>Linkedin</l></a></li>
     </ul>
    
     </div>

@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import git from '../image/github.ico'
 import linkedin from '../image/linkedin.ico'
 import facebook from '../image/facebook.ico'
@@ -49,11 +49,11 @@ export default function footer() {
       <li onClick={Education}>Education</li>
     </ul>
     <div className='socialmedia'>
-      <a href='#'><img src={facebook} alt='facebook'/></a>
-      <a href='#'><img src={git} alt='github'/></a>
-      <a href='#'><img src={linkedin} alt='linkedin'/></a>
-      <a href='#'><img src={twet} alt='twitter'/></a>
-      <a href='#'><img src={insta} alt='instagram'/></a>
+      <a href='https://www.facebook.com/dejulove.tesfaye?mibextid=rS40aB7S9Ucbxw6v'><img src={facebook} alt='facebook'/></a>
+      <a href='https://github.com/Deju12'><img src={git} alt='github'/></a>
+      <a href='https://www.linkedin.com/in/dejene-tesfaye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={linkedin} alt='linkedin'/></a>
+      <a href='https://www.linkedin.com/in/dejene-tesfaye?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src={twet} alt='twitter'/></a>
+      <a href='https://github.com/Deju12'><img src={insta} alt='instagram'/></a>
     </div>
     <div className='contact'>
       <p>Email :  dejotesfa123@gmail.com</p>
