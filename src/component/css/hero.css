@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    background-image: linear-gradient( black, rgb(5, 5, 56));
+    height: 100vh;
+    padding: 59px;
+    display: flex;
+    z-index: -1;
+    box-shadow:inset 5px 1px 20px rgb(25, 25, 46);
+    color: white;
+    width: 100%;
+}
+.leftside{
+    padding: 90px 0px 0px 70px;
+    width: 49%;
+    height: 100%;
+    
+}
+.leftside h1{
+    font-size: 45px;
+    
+}
+.leftside h4{
+    padding: 10px 0px 15px 0px;
+    font-size: 25px;
+}
+.leftside h4 span{
+    color: rgb(0, 63, 235);
+}
+.leftside p{
+    padding: 5px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.leftside button{
+    margin-top: 50px;
+    padding: 10px;
+    width: 40%;
+    background-image: linear-gradient(to right, rgb(25, 0, 255), rgb(117, 7, 176));
+    color: white;
+    font-size: 19px;
+    border-radius: 10px;
+    border: none;
+}
+.leftside button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(166, 0, 255));
+    color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 20px indigo;
+    rotate:5deg;
+}
+.rightside{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+    height: 90%;
+    
+}
+.rightside img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    margin:90px 90px 30px 40px;
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 120px rgb(2, 2, 143);
+}
+
+@media screen and (max-width: 1250px) {
+    .leftside{
+        padding: 90px 0px 0px 40px;
+        width: 48%;
+        
+    }
+    .rightside img{
+        width: 350px;
+        height: 350px;
+        margin:90px 90px 30px 70px;
+        border:1px solid rgb(0, 0, 0);
+        box-shadow: 10px 10px 120px rgb(2, 2, 143);
+    }
+    
+}
+@media screen and (max-width: 1035px) {
+    .leftside{
+        padding: 90px 0px 0px 10px;
+        width: 48%;
+        
+    }
+    .rightside img{
+        width: 300px;
+        height: 300px;
+        margin:90px 90px 30px 130px;
+    }
+    
+    
+    .leftside button{
+        width: 45%;
+        
+    }
+    
+}
+@media screen and (max-width: 868px) {
+    .contain{
+        display: block;
+        padding: 59px 10px 0px 10px;
+    }
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 70%;
+        
+    }
+    .leftside h1{
+        font-size: 45px;
+        
+    }
+    .leftside h4{
+        padding: 10px 0px 15px 0px;
+        font-size: 25px;
+    }
+    
+    
+    .leftside button{
+        width: 48%;
+        font-size: 19px;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 30%;
+        
+    }
+    .rightside img{
+        width: 27%;
+        height: 100%;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width: 778px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 75%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 25%;
+        
+    }
+    .rightside img{
+        width: 27%;
+        height: 100%;
+        margin:0px;
+    }
+}
+@media screen and (max-width: 635px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 75%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 25%;
+        
+    }
+    .rightside img{
+        width: 30%;
+        height: 100%;
+        margin:0px;
+    }
+}
+@media screen and (max-width: 560px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 75%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 25%;
+        
+    }
+    .rightside img{
+        width: 33%;
+        height: 100%;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width: 530px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 79%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 21%;
+        
+    }
+    .rightside img{
+        width: 30%;
+        height: 100%;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width: 560px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 75%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 25%;
+        
+    }
+    .rightside img{
+        width: 33%;
+        height: 100%;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width: 483px){
+    .leftside{
+        padding: 20px 20px 0px 20px;
+        width: 100%;
+        height: 82%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 18%;
+        
+    }
+    .rightside img{
+        width: 28%;
+        height: 100%;
+        margin:0px;
+    }
+    
+}
+@media screen and (max-width: 425px){
+    .leftside{
+        padding: 10px 2px 0px 2px;
+        width: 100%;
+        height: 85%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 15%;
+    }
+    .rightside img{
+        width: 30%;
+       
+    }
+    .leftside h1{
+        font-size: 35px;
+        
+    }
+    .leftside h4{
+        font-size: 25px;
+    }
+    .leftside button{
+        margin-top: 10px;
+    }
+    
+    
+}
+
+@media screen and (min-height: 751px) {
+    .leftside{
+        height: 70%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 28%;
+        margin-bottom: 20px;
+    }
+    .rightside img{
+        width: 60%;
+       
+    }
+    
+}
+
+@media screen and (min-height: 950px) {
+    .leftside{
+        height: 53%;
+        
+    }
+    .rightside{
+        width: 100%;
+        height: 45%;
+        margin-bottom: 30px;
+    }
+    .rightside img{
+        width: 400px;
+       
+    }
+    
+}
+@media screen and (min-height: 1350px) {
+    .leftside{
+        height: 100%;
+        width: 80%;
+    }
+    .rightside{
+        width: 100%;
+        height: 100%;
+    }
+    .rightside img{
+        width: 60%;
+       
+    }
+    
+}

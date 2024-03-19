@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.excontainer{
+    background-image:linear-gradient(rgb(10, 4, 40),rgb(5, 5, 55)) ;
+    height: 100vh;
+    display:block;
+    color: rgb(225, 221, 221);
+}
+.title{
+    width: 100%;
+    background-image: linear-gradient(rgb(5, 5, 56),rgb(10, 4, 40));
+    text-align: center;
+    padding-top: 55px;
+}
+
+.title h1{
+    padding: 10px 0px 0px;
+    font-size: 50px;
+    text-shadow: 3px 3px 20px blue;
+}
+.exbody{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exbody .line{
+    height: 90%;
+    width: 10%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.exbody .line .vertical{
+    height: 100%;
+    width: 3px;
+    background-color: rgb(202, 202, 202);
+    float: right;
+    border-radius: 10px;
+}
+.exbody .bodycont{
+    height: 90%;
+    width: 80%;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.exbody .bodycont .exp{
+    width: 93%;
+    background-image: linear-gradient(to right,rgb(51, 2, 54), rgb(14, 3, 70));
+    height: 27%;
+    margin: 25px 0px 0px 15px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 2px 2px 10px blueviolet;
+}
+.exp .tite{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.exp .tite h2{
+    font-weight: 650;
+    color: rgb(235, 236, 237);
+    
+}
+.exp .tite h4{
+    font-weight: 400;
+    color: rgb(195, 196, 197);
+    
+}
+.exp .tite h5,h6{
+    font-weight: 300;
+    color: rgb(162, 164, 165);
+    
+}
+.exp .disc{
+    width:40%;
+    
+}
+.exp .disc p{
+    width:90%;
+    padding-top:20px ;
+    text-align: justify;
+    font-weight: 200;
+    
+}
+
+.skil{
+    width: 20%;
+}
+.skil h3{
+    text-align: center;
+    padding: 5px;
+    color: rgb(166, 167, 168);
+}
+.skil ul{
+    width: 100%;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    list-style: circle;
+    color: rgb(153, 153, 153);
+    margin-left: 25px;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.skil li{
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1400px) {
+    .exbody .line{
+        width: 1px;
+    }
+    .exbody .bodycont{
+        width: 98%;
+    }
+    .exbody .bodycont .exp{
+        width: 96%;
+    }
+    .skil{
+        width: 25%;
+    }
+    .exp .disc{
+        width: 43%;
+    }
+    
+}
+@media screen and (max-width:913px) {
+    .exbody{
+        height: 78%;
+    }
+    .exbody .bodycont{
+        height: 100%;
+    }
+    
+}
+@media screen and (max-width:884px) {
+    .exbody{
+        height: 78%;
+    }
+    .exbody .bodycont{
+        display: flex;
+    }
+    .line{
+        display: none;
+    }
+    .exbody .bodycont .exp{
+        width: 32%;
+        display: block;
+        height: 98%;
+        margin: 10px;
+        padding: 0px;
+    }
+    .exp .tite{
+        width: 100%;
+        height: 35%;
+       
+    }
+    .exp .disc{
+        width: 99%;
+        height: 36%;
+    }
+    .exp .disc p {
+        width: 98%;
+        padding-top: 0px;
+        text-align: center;
+        font-weight: 200;
+    }
+    .exp .skil{
+        width: 100%;
+        height: 29%;
+    }
+    
+}
+@media screen and (max-width:765px) {
+    .exbody{
+        height: 73%;
+    }
+    
+}
+@media screen and (max-width:711px) {
+    .exp .tite h2 {
+        font-size: 20px;
+    }
+    .exp .tite h4 {
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:685px) {
+    .exp .tite h2 {
+        font-size: 20px;
+    }
+    .exp .tite h4 {
+        font-size: 15px;
+    }
+    .exp .disc p {
+        font-size: small;
+    }
+    .skil ul {
+        margin-left: 5px;
+        font-size: small;
+    }
+    
+}
+@media screen and (max-width:685px) {
+    .exp .tite h2 {
+        font-size: 14px;
+    }
+    .exp .tite h4 {
+        font-size: 10px;
+    }
+    .exp .tite{
+        width: 100%;
+        height: 27%;
+       
+    }
+    .exp .disc{
+        width: 99%;
+        height: 45%;
+    }
+    .exp .disc p {
+        width: 98%;
+        padding-top: 0px;
+        text-align: center;
+        font-weight: 200;
+    }
+    .exp .skil{
+        width: 100%;
+        height: 28%;
+    }
+    
+}
+@media screen and (max-width:454px) {
+    .exp .tite h2 {
+        font-size: 13px;
+    }
+    .exp .tite h4 {
+        font-size: 9px;
+    }
+    .exp .tite h5 ,.exp .tite h6 {
+        font-size: 9px;
+    }
+    .exp .tite{
+        width: 100%;
+        height: 30%;
+       
+    }
+    .exp .disc{
+        width: 99%;
+        height: 40%;
+    }
+    .exp .disc p {
+      font-size: 11px;
+    }
+    .exp .skil{
+        width: 100%;
+        height: 28%;
+    }
+    .skil ul {
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:454px){
+    .exbody{
+        height: 70%;
+    }
+}

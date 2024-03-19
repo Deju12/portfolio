@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.concontainer{
+    background-image:linear-gradient(rgb(10, 4, 40),rgb(10, 4, 40)) ;
+    height: 100vh;
+    display:block;
+    color: rgb(225, 221, 221);
+    margin: 0px;
+}
+.success{
+    background-color: green;
+    font-size: 13px;
+    float: right;
+    padding: 10px;
+    width: 40%;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+.error{
+    background-color: red;
+    font-size: 13px;
+    float: right;
+    padding: 10px;
+    width: 40%;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+
+.contitle{
+    width: 100%;
+    background-image: linear-gradient(rgb(5, 5, 56),rgb(10, 4, 40));
+    text-align: center;
+    padding-top: 55px;
+}
+
+.contitle h1{
+    padding: 10px 0px 0px;
+    font-size: 50px;
+    text-shadow: 3px 3px 20px blue;
+}
+.conbody{
+    width: 100%;
+    height: 78%;
+}
+.formbody{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.formbody form{
+    height: 90%;
+    background-color: rgb(19, 19, 44);
+    box-shadow: 4px 4px 25px indigo;
+    width: 40%;
+    border-radius: 20px;
+}
+.formbody form div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.formbody form h2{
+    width: 100%;
+    padding: 20px 0px 0px 60px;
+    font-size: 30px;
+    text-shadow: 5px 5px 20px rgb(149, 0, 255);
+}
+.formbody form h2 img{
+    width: 27px;
+    height: 27px;
+    margin-left: 10px;
+}
+.formbody form div input{
+    width: 80%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+}
+.formbody form div textarea{
+    max-width: 80%;
+    min-height: 120px;
+    max-height: 120px;
+    min-width: 75%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.formbody form div input[type='submit']{
+    margin-top: 35px;
+    background-image: linear-gradient(to right, rgb(3, 3, 135) , rgb(83, 4, 140));
+    border: none;
+    font-size: 23px;
+
+}
+.formbody form div input[type='submit']:hover{
+    background-image:linear-gradient(to right, rgb(154, 13, 255), rgb(0, 0, 255) ) ;
+    box-shadow: 2px 2px 30px rgb(167, 47, 253) ;
+    cursor: pointer;
+    rotate: 1deg;
+    color: black;
+}
+
+@media screen and (max-width:1020px) {
+    .formbody form {
+        width: 60%;
+    }
+}
+@media screen and (max-width:870px) {
+    .formbody form {
+        width: 80%;
+    }
+}
+@media screen and (max-width:670px) {
+    .formbody form {
+        width: 90%;
+    }
+    .footer ul li {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:550px) {
+    .conbody {
+        height: 80%;
+    }
+    .formbody form {
+        width: 98%;
+    }
+    .footer ul li {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:510px) {
+    
+    .conbody {
+        height: 80%;
+    }
+    .formbody form {
+        width: 100%;
+    }
+}

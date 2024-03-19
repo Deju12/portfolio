@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.edcontainer{
+    background-image:linear-gradient(rgb(10, 4, 40),rgb(5, 5, 55)) ;
+    height: 150vh;
+    display:block;
+    color: rgb(225, 221, 221);
+}
+.edtitl{
+    width: 100%;
+    background-image: linear-gradient(rgb(5, 5, 56),rgb(10, 4, 40));
+    text-align: center;
+    padding-top: 55px;
+}
+
+.edtitl h1{
+    padding: 10px 0px 0px;
+    font-size: 50px;
+    text-shadow: 3px 3px 20px blue;
+}
+
+.edbody{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edbody .bodyle{
+    width: 47%;
+    height: 90%;
+}
+
+.edbody .bodyle{
+    padding: 20px;
+}
+.edbody .bline{
+    width: 1%;
+    height: 90%;
+    margin: 0px 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+}
+.edbody .bline .vertical{
+    width: 2px;
+    height: 100%;
+    background-color: white;
+}
+.box{
+    width: 95%;
+    height: 18%;
+    margin: 0px 0px;
+   
+    
+}
+
+.sel{
+    background-color: rgb(11, 2, 45);
+    border-radius:20px;
+    box-shadow: 3px 3px 30px indigo;
+}
+
+.left{
+    width: 90%;
+    height: 100%;
+    margin:0px;
+}
+.le {
+    justify-content: right;
+    display: flex;
+    align-items: right;
+    width: 100%;
+}
+.le .box {
+    width: 100%;
+}
+.sel .left{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.sel .left .image{
+    width: 25%;
+    padding: 10px 20px 0px 20px;
+}
+.sel .left .image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 10%;
+}
+
+.sel .left .image .imgsama{
+    border-radius: 50%;
+}
+.sel .left .titlee{
+    margin: 0px 0px 0px 20px;
+    width: 90%;
+}
+.sel .left .titlee h2{
+    text-align: left;
+    font-weight: 500;
+    text-shadow: 1px 1px 5px blue;
+}
+.sel .left .titlee h3{
+    text-align: left;
+    font-weight: 200;
+}
+.sel .left .titlee h4{
+    text-align: left;
+    font-weight: 200;
+}
+.sel .right{
+    width: 86%;
+    margin: 10px 0px 0px 30px;
+
+}
+.sel .right p{
+    width: 100%;
+    text-align: justify;
+    font-size: 16px;
+    font-weight:300;
+    padding:15px 0px 0px 50px;
+}
+@media screen and (max-width:1480px) {
+    .box {
+        height: 20%;
+    }
+    .sel .right p {
+       
+        padding: 0px 0px 0px 50px;
+    }
+    
+    
+}
+@media screen and (max-width:1080px) {
+    .box {
+        height: 20%;
+    }
+    .sel .right p {
+       font-size: 14px;
+       padding:15px 0px 0px 10px;
+    }
+    .sel .left .image {
+        padding: 5px 20px 0px 10px;
+    }
+    .sel .left .titlee {
+        margin: 0px 0px 0px 10px;
+    }
+    .sel .left {
+        height: 40%;
+    }
+    
+    .sel .left .image img {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+    }
+    .sel .left .titlee h2 {
+        font-size: 18px;
+    }
+    .sel .left .titlee h3 {
+        font-size: 16px;
+    }
+    .sel .left .titlee h4 {
+        font-size: 14px;
+    }
+    
+    
+}
+@media screen and (max-width:854px){
+    .edbody {
+        height: 83%;
+    }
+    .sel .right{
+        margin-left: 7px;
+        width: 95%;
+    }
+    .sel .right p {
+       font-size: 12px;
+        
+    }
+    .sel .left .image {
+        padding: 3px 10px 0px 5px;
+    }
+    .sel .left .titlee {
+        margin: 0px 0px 0px 5px;
+    }
+    .sel .left {
+        height: 30%;
+    }
+    .sel .left .image img {
+        width: 40px;
+        height: 40px;
+    }
+    .sel .left .titlee h2 {
+        font-size: 16px;
+    }
+    .sel .left .titlee h3 {
+        font-size: 14px;
+    }
+    .sel .left .titlee h4 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:690px){
+    .sel .right p {
+       font-size: 10px;
+       padding:15px 7px 0px 0px;
+    }
+    .sel .left .image {
+        padding: 3px 3px 0px 5px;
+    }
+    .sel .left .titlee {
+        margin: 0px 0px 0px 5px;
+    }
+    .sel .left {
+        height: 30%;
+    }
+    .sel .left .image img {
+        width: 35px;
+        height: 35px;
+    }
+    .sel .left .titlee h2 {
+        font-size: 14px;
+    }
+    .sel .left .titlee h3 {
+        font-size: 12px;
+    }
+    .sel .left .titlee h4 {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:630px){
+    
+    .edbody{
+        display: block;
+        height: 81%;
+    }
+    .edbody .bline{
+        display: none;
+    }
+    .edbody .box{
+        display: none;
+    }
+    .edbody .sel{
+        display: block;
+    }
+    .left {
+        width: 100%;
+    }
+    .edbody .bodyle {
+        height: 50%;
+        width: 100%;
+        display: block;
+    } 
+    .edbody .bodyle .box{
+        width: 100%;
+        height: 30%;
+        margin-top: 20px;
+    } 
+
+    .box {
+        height: 20%;
+    }
+    .sel .right p {
+       font-size: 14px;
+       padding:15px 0px 0px 10px;
+    }
+    .sel .left .image {
+        padding: 5px 20px 0px 10px;
+    }
+    .sel .left .titlee {
+        margin: 0px 0px 0px 10px;
+    }
+    .sel .left {
+        height: 40%;
+    }
+    
+    .sel .left .image img {
+        width: 60px;
+        height: 60px;
+        border-radius: 10%;
+    }
+    .sel .left .titlee h2 {
+        font-size: 18px;
+    }
+    .sel .left .titlee h3 {
+        font-size: 16px;
+    }
+    .sel .left .titlee h4 {
+        font-size: 14px;
+    }
+    
+
+
+}
+@media screen and (max-width:690px){
+    .sel .right p {
+       font-size: 12px;
+       padding:15px 7px 0px 0px;
+    }
+    .sel .left .image {
+        padding: 3px 3px 0px 5px;
+    }
+    .sel .left .titlee {
+        margin: 0px 0px 0px 5px;
+    }
+    .sel .left {
+        height: 35%;
+    }
+    .sel .left .image img {
+        width: 40px;
+        height: 40px;
+    }
+    .sel .left .titlee h2 {
+        font-size: 17px;
+    }
+    .sel .left .titlee h3 {
+        font-size: 15px;
+    }
+    .sel .left .titlee h4 {
+        font-size: 13px;
+    }
+}
