@@ -35,10 +35,11 @@
     padding: 5px;
     font-size: 18px;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
-.leftside button{
-    margin-top: 50px;
+.leftside a{
+   
     padding: 10px;
     width: 40%;
     background-image: linear-gradient(to right, rgb(25, 0, 255), rgb(117, 7, 176));
@@ -46,8 +47,9 @@
     font-size: 19px;
     border-radius: 10px;
     border: none;
+    text-decoration: none;
 }
-.leftside button:hover{
+.leftside a:hover{
     cursor: pointer;
     background-image: linear-gradient(to right, rgb(0, 0, 255), rgb(166, 0, 255));
     color: rgb(0, 0, 0);
@@ -99,7 +101,7 @@
     }
     
     
-    .leftside button{
+    .leftside a{
         width: 45%;
         
     }
@@ -277,7 +279,7 @@
     .leftside h4{
         font-size: 20px;
     }
-    .leftside button{
+    .leftside a{
         margin-top: 10px;
     }
     
@@ -312,7 +314,7 @@
     
 }
 
-@media screen and (max-height: 751px) {
+@media screen and (max-height: 700px),(max-width:385px) {
     .leftside{
         height: 72%;
         
@@ -337,7 +339,7 @@
 }
 
 
-@media screen and (max-height: 628px) {
+@media screen and (max-height: 628px),(max-width:385px) {
     .leftside{
         height: 73%;
         
@@ -364,4 +366,8 @@
     }
     
 }
+
+
+
+
 

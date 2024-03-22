@@ -14,7 +14,7 @@ export default function Hero() {
               With a positive attitude and a growth mindset, 
               I am interested to make a meaningful contribution and achieve great things.
             </p>
-            <button className='but'>Check Reume</button>
+            <a href='https://drive.google.com/file/d/1SZLOKI-ZfKhY34_OvDJI9PKaQEiNk_BX/view?usp=sharing' className='but'>Check Reume</a>
         </div>
         
         <div className='rightside'>
