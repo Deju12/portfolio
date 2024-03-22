@@ -272,10 +272,21 @@
     }
     .discr h3 {
         
-        font-size: 13px;
+        font-size: 12px;
     }
     .discr h4 {
         
         font-size: 12px;
+    }
+}
+
+@media screen and (max-width:359px){
+    .discr h3 {
+        
+        font-size: 11px;
+    }
+    .discr h4 {
+        
+        font-size: 11px;
     }
 }
