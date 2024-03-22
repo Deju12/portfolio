@@ -278,3 +278,21 @@
         height: 70%;
     }
 }
+@media screen and (max-width:395px){
+    .exbody .bodycont .exp{
+        width: 30%;
+        height: 98%;
+        margin: 5px 0px 0px 7px;
+        
+    }
+    .exp .tite{
+       padding-bottom: 2px;
+       
+    }
+    .exp .disc {
+        height: 45%;
+    }
+    .exp .skil {
+        height: 23%;
+    }
+}

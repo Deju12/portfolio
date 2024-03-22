@@ -219,25 +219,27 @@
             display:inline;
           
     }
-        .prbody .proj .image {
-            width: 50%;
-            height: 45%;
-            float: left;
+    .prbody .proj .image {
+        width: 25%;
+        height: 45%;
+        float: left;
+        margin: 3px;
     }
     .image img {
-        width: 60%;
+        width: 90%;
         height: 100%;
         border-radius: 10px;
     }
     .prbody .proj .prog {
-        width: 50%;
+        width: 100%;
         height: 45%;
         margin-left: 0px;
         float: left;
+        margin-top: 20px;
     }
     .discr p {
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 12px;
     }
     .discr h3 {
         
