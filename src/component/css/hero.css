@@ -316,7 +316,7 @@
 
 @media screen and (max-height: 700px),(max-width:385px) {
     .leftside{
-        height: 72%;
+        height: 59%;
         
     }
     .leftside p{
@@ -333,10 +333,10 @@
     }
     .rightside{
         width: 100%;
-        height: 30%;
+        height: 39%;
     }
     .rightside img{
-        width: 36%;
+        width: 45%;
         height: 70%;
     }
     
