@@ -221,7 +221,7 @@
     }
     .prbody .proj .image {
         width: 25%;
-        height: 45%;
+        height: 65%;
         float: left;
         margin: 3px;
     }
@@ -232,14 +232,16 @@
     }
     .prbody .proj .prog {
         width: 100%;
-        height: 45%;
+        height: 20%;
         margin-left: 0px;
         float: left;
-        margin-top: 20px;
+        
     }
     .discr p {
         margin-top: 0px;
         font-size: 12px;
+        height: 70%;
+        padding: 0%;
     }
     .discr h3 {
         
@@ -252,6 +254,7 @@
     .prbody .proj .discr{
         width: 100%;
         height: 50%;
+        
     }   
 }
 @media screen and (max-width:425px) {
@@ -259,5 +262,20 @@
         margin: 1px 1px;
         padding: 2px 5px 2px 5px;
         font-size: 8px;
+    }
+    .discr p {
+        margin-top: 5px;
+        font-size: 11px;
+        width: 98%;
+        z-index: index;
+        
+    }
+    .discr h3 {
+        
+        font-size: 13px;
+    }
+    .discr h4 {
+        
+        font-size: 12px;
     }
 }
