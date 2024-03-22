@@ -30,7 +30,7 @@ export default function Contact() {
     } catch (error) {
       setSuccessMessage('');
       setErrorMessage('Error');
-
+      
       console.error('Error sending email:', error);
     }
   };
