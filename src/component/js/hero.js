@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/hero.css'
-import logo2 from '../image/deju.jpg'
+import logo2 from '../image/pic1.jpg'
 export default function Hero() {
   return (
     <div id='about' className='contain'>

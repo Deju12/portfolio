@@ -35,7 +35,7 @@
     padding: 5px;
     font-size: 18px;
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .leftside a{
@@ -273,11 +273,11 @@
        
     }
     .leftside h1{
-        font-size: 35px;
+        font-size: 32px;
         
     }
     .leftside h4{
-        font-size: 20px;
+        font-size: 18px;
     }
     .leftside a{
         margin-top: 10px;
@@ -305,7 +305,7 @@
         
     }
     .leftside h4{
-        font-size: 20px;
+        font-size: 16px;
     }
     .leftside button{
         margin-top: 5px;
